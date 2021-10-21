@@ -1,0 +1,7 @@
+Integer[] intArray = new Integer[]{1, 2, 3, 4, 5};
+String[] nameArray = new String[]{"Bill", "Connor", "Joe", "John", "Mark"}; // Array is already sorted lexicographically
+
+List<Integer> intList = new ArrayList<>(Arrays.asList(intArray));
+List<String> nameList = new ArrayList<>(Arrays.asList(nameArray));
+System.out.println(Collections.binarySearch(intList, 2));
+System.out.println(Collections.binarySearch(nameList, "Robin"));
